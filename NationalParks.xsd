@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NationalParks"
+    targetNamespace="http://tempuri.org/NationalParks.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/NationalParks.xsd"
+    xmlns:mstns="http://tempuri.org/NationalParks.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="NationalParks">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Name" type="xs:string"/>
+				<xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
+				<xs:element name="Address">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Number" type="xs:positiveInteger"/>
+							<xs:element name="Street" type="xs:string"/>
+							<xs:element name="City" type="xs:string"/>
+							<xs:element name="State" type="xs:string"/>
+							<xs:element name="Zip" type="xs:positiveInteger"/>
+						</xs:sequence>
+						<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="Rating" type="xs:double" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+
+<!--https://www.w3schools.com/xml/schema_example.asp for assistance-->

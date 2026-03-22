@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NationalPark> <!--Root node error: NationalPark-->
+	<NationalPark Rating="4.9">
+		<!--Child node: NationalPark, has attribute element: Rating-->
+		<Name>Grand Canyon</Name>
+		<!--Child element of NationalPark: Phone, can contain multiple numbers-->
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
+		<Address> <!--required attribute missing: nearest airport-->
+			<!--Child element of NationalPark: Address, has attribute element: NearestAirport-->
+			<Number>8</Number>
+			<!--Child element of Address: Number-->
+			<Street>S Entrance Road</Street>
+			<!--Child element of Street: Number-->
+			<City>Grand Canyon</City>
+			<!--Child element of City: Number-->
+			<State>AZ</State>
+			<!--Child element of State: Number-->
+			<Zip>86023</Zip>
+			<!--Child element of Zip: Number-->
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.5">
+		<!--Child node: NationalPark, has attribute element: Rating-->
+		<Name>Yellowstone</Name>
+		<!--Child element of NationalPark: Phone, can contain multiple numbers-->
+		<!--Phone element missing error-->
+		<Address NearestAirport="Jackson">
+			<!--Child element of NationalPark: Address, has attribute element: NearestAirport-->
+			<Number>114</Number>
+			<!--Child element of Address: Number-->
+			<Street>Albright Ave</Street>
+			<!--Child element of Street: Number-->
+			<City>Yellowstone</City>
+			<!--Child element of City: Number-->
+			<State>WY</State>
+			<!--Child element of State: Number-->
+			<Zip>82190</Zip>
+			<!--Child element of Zip: Number-->
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.8">
+		<!--Child node: NationalPark, has attribute element: Rating-->
+		<Name>Sequoia</Name>
+		<!--Child element of NationalPark: Phone, can contain multiple numbers-->
+		<Phone>559-565-3341</Phone>
+		<Address NearestAirport="Fresno">
+			<!--Child element of NationalPark: Address, has attribute element: NearestAirport-->
+			<Number>47050</Number>
+			<!--Child element of Address: Number-->
+			<Street>Generals Highway</Street>
+			<!--Child element of Street: Number-->
+			<City>Three Rivers</City>
+			<!--Child element of City: Number-->
+			<State>CA</State>
+			<!--Child element of State: Number-->
+			<Zip>93271</Zip>
+			<!--Child element of Zip: Number-->
+			<!--Address element no closing tag error-->
+	</NationalPark>
+	<NationalPark Rating="4.9">
+		<!--Child node: NationalPark, has attribute element: Rating-->
+		<Name>Mount Rainier</Name>
+		<Name>Mount Rainier National Park</Name>
+		<!--Child element of NationalPark: Phone, can contain multiple numbers-->
+		<Phone>360-569-2211</Phone>
+		<Address NearestAirport="Seattle">
+			<!--Child element of NationalPark: Address, has attribute element: NearestAirport-->
+			<Number>39000</Number>
+			<!--Child element of Address: Number-->
+			<Street>State Route 706 E</Street>
+			<!--Child element of Street: Number-->
+			<City>Ashford</City>
+			<!--Child element of City: Number-->
+			<State>WA</State>
+			<!--Child element of State: Number-->
+			<Zip>98304</Zip>
+			<!--Child element of Zip: Number-->
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.8">
+		<!--Child node: NationalPark, has attribute element: Rating-->
+		<Name>Zion</Name>
+		<!--Child element of NationalPark: Phone, can contain multiple numbers-->
+		<Phone>435-772-3256</Phone>
+		<Address NearestAirport="Utah">
+			<!--Child element of NationalPark: Address, has attribute element: NearestAirport-->
+			<Number>1</Number>
+			<!--Child element of Address: Number-->
+			<Street>Zion Park Blvd</Street>
+			<!--Child element of Street: Number-->
+			<City>Springdale</City>
+			<!--Child element of City: Number-->
+			<State>UT</State>
+			<!--Child element of State: Number-->
+			<Zip>84767</Zip>
+			<!--Child element of Zip: Number-->
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.8">
+		<!--Child node: NationalPark, has attribute element: Rating-->
+		<Name>Yosemite</Name>
+		<!--Child element of NationalPark: Phone, can contain multiple numbers-->
+		<Phone>209-372-0200</Phone>
+		<Address NearestAirport="Fresno">
+			<!--Child element of NationalPark: Address, has attribute element: NearestAirport-->
+			<Number>9035</Number>
+			<!--Child element of Address: Number-->
+			<Street>Village Dr</Street>
+			<!--Child element of Street: Number-->
+			<City>Yosemite Valley</City>
+			<!--Child element of City: Number-->
+			<State>CA</State>
+			<!--Child element of State: Number-->
+			<Zip>95389</Zip>
+			<!--Child element of Zip: Number-->
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.8">
+		<!--Child node: NationalPark, has attribute element: Rating-->
+		<Name>Yosemite</Name>
+		<!--Child element of NationalPark: Phone, can contain multiple numbers-->
+		<Phone>209-372-0200</Phone>
+		<Address NearestAirport="Fresno">
+			<!--Child element of NationalPark: Address, has attribute element: NearestAirport-->
+			<Number>9035</Number>
+			<!--Child element of Address: Number-->
+			<Street>Village Dr</Street>
+			<!--Child element of Street: Number-->
+			<City>Yosemite Valley</City>
+			<!--Child element of City: Number-->
+			<State>CA</State>
+			<!--Child element of State: Number-->
+			<Zip>95389</Zip>
+			<!--Child element of Zip: Number-->
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.9">
+		<!--Child node: NationalPark, has attribute element: Rating-->
+		<Name>Acadia</Name>
+		<!--Child element of NationalPark: Phone, can contain multiple numbers-->
+		<Phone>207-288-3338</Phone>
+		<Address NearestAirport="Trenton">
+			<!--Child element of NationalPark: Address, has attribute element: NearestAirport-->
+			<Number>25</Number>
+			<!--Child element of Address: Number-->
+			<Street>Visitor Center Road</Street>
+			<!--Child element of Street: Number-->
+			<City>Bar Harbor</City>
+			<!--Child element of City: Number-->
+			<State>ME</State>
+			<!--Child element of State: Number-->
+			<Zip>04609</Zip>
+			<!--Child element of Zip: Number-->
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.8">
+		<!--Child node: NationalPark, has attribute element: Rating-->
+		<Name>Olympic</Name>
+		<!--Child element of NationalPark: Phone, can contain multiple numbers-->
+		<Phone>360-565-3130</Phone>
+		<Address NearestAirport="Seattle">
+			<!--Child element of NationalPark: Address, has attribute element: NearestAirport-->
+			<Number>3002</Number>
+			<!--Child element of Address: Number-->
+			<Street>Mt Angeles Rd</Street>
+			<!--Child element of Street: Number-->
+			<City>Port Angeles</City>
+			<!--Child element of City: Number-->
+			<State>WA</State>
+			<!--Child element of State: Number-->
+			<Zip>98362</Zip>
+			<!--Child element of Zip: Number-->
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="4.8">
+		<!--Child node: NationalPark, has attribute element: Rating-->
+		<Name>Glacier</Name>
+		<!--Child element of NationalPark: Phone, can contain multiple numbers-->
+		<Phone>406-888-7800</Phone>
+		<Address NearestAirport="Kalispell">
+			<!--Child element of NationalPark: Address, has attribute element: NearestAirport-->
+			<Number>18</Number>
+			<!--Child element of Address: Number-->
+			<Street>Going To the Sun Hwy</Street>
+			<!--Child element of Street: Number-->
+			<City>Browning</City>
+			<!--Child element of City: Number-->
+			<State>MT</State>
+			<!--Child element of State: Number-->
+			<Zip>59417</Zip>
+			<!--Child element of Zip: Number-->
+		</Address>
+	</NationalPark>
+</NationalPark>
