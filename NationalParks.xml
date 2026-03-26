@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<NationalParks> <!--Root node: NationalParks-->
+<NationalParks xmlns="http://tempuri.org/NationalParks.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="https://tasnumi.github.io/CSE445XML NationalParks.xsd"> <!--Root node: NationalParks-->
 	<NationalPark Rating="4.9"> <!--Child node: NationalPark, has attribute element: Rating-->
 		<Name>Grand Canyon</Name> <!--Child element of NationalPark: Phone, can contain multiple numbers-->
 		<Phone>928-638-7496</Phone>
